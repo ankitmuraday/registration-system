@@ -9,7 +9,7 @@ const View = () => {
   }, []);
 
   const viewdata = async () => {
-    const res = await axios.get('http://localhost:9000/users');
+    const res = await axios.get('https://registration-system-6h9j.onrender.com/users');
     setUsers(res.data);
   };
 
